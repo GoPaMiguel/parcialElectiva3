@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Electiva Parcial III</title>
+</head>
+
+<body>
+    <div class="container border p-8 w-4/5 mt-12 mx-auto">
+
+        <header class="md:flex border-b md:gap-4 justify-center">
+            <img class="h-12" src="img/logo.jpg" alt="Unicolombo">
+            <h1 class="mt-2 md:mt-0">Registro de programa académico</h1>
+        </header>
+        <main class="mt-12">
+            <form action="" class="">
+
+                <div class="md:grid md:grid-cols-2 gap-4 justify-center">
+                    <div class="md:flex md:flex-col gap-2"> 
+                        <label class="w-auto" for="nombre">Nombre del programa académico* </label>
+                        <input type="text" name="nombre" id="nombre" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2"> 
+                        <label for="codigo">Código del programa académico *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2"> 
+                        <label for="codigo">Programa académico *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2"> 
+                        <label for="codigo">Nombre Abreviado *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2"> 
+                        <label for="codigo">Nivel de formación *</label>
+                        <select class="border p-2 mb-2" name="nivelAcademico" id="nivelAcademico">
+                            <option value=""></option>
+                            <option value="preescolar">Preescolar</option>
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option> 
+                            <option value="media">Media</option>
+                            <option value="superior">Superior</option>
+                        </select>
+                    </div>
+                    <div class="md:flex md:flex-col gap-2"> 
+                        <label for="codigo">Coordiandor académico *</label>
+                        <select class="border p-2 mb-2" name="nivelAcademico" id="nivelAcademico">
+                            <option value=""></option>
+                            <option value="">Carlos Castro</option>
+                            <option value="">Andrian Medrano</option>
+                            <option value="">Jose martinez</option> 
+                            <option value="">Luisa Perez</option>
+                            <option value="">Maria Rodriguez</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <checkbox class="p-2 mb-2" name="nivelAcademico" id="nivelAcademico">
+                        <label class="" for="codigo">Realizar Prácticas</label>
+                        <input type="checkbox" name="estado" id="estado" class="ml-3 border p-2 mb-4">
+                </div>
+
+                <div class="my-4">
+                    <label for="duracion">Duracion</label>
+                    <input type="number" class="border ml-2 p-1 mb-2">
+                </div>
+                <div class="justify-center flex mt-8">
+                    <a href="./Empleado.html">
+
+                        <input class="cursor-pointer text-xl p-2 rounded bg-blue-600 text-white"  type="button" value="Enviar">
+                    </a>
+                </div>
+            </form>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+
+</html>

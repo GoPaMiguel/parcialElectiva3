@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Electiva Parcial III</title>
+</head>
+
+<body>
+    <div class="container border p-8 w-4/5 mt-12 mx-auto">
+
+        <header class="md:flex border-b md:gap-4 justify-center">
+            <img class="h-12" src="img/logo.jpg" alt="Unicolombo">
+            <h1 class="mt-2 md:mt-0">Registro de Empleado</h1>
+        </header>
+        <main class="mt-12">
+            <form action="" class="">
+
+                <div class="md:grid md:grid-cols-2 gap-4 justify-center">
+
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Tipo Documento *</label>
+                        <select class="border p-2 mb-2" name="nivelAcademico" id="nivelAcademico">
+                            <option value=""></option>
+                            <option value="CC">Cedula de Ciudadania</option>
+                            <option value="TI">Tarjeta de Identidad</option>
+                            <option value="CE">Cedula de Extranjeria</option>
+                            <option value="PA">Pasaporte</option>
+                        </select>
+                    </div>
+
+                    <div class="md:flex md:flex-col gap-2">
+                        <label class="w-auto" for="nombre">Numero documento* </label>
+                        <input type="text" name="nombre" id="docu" class="border p-2 mb-4">
+                    </div>
+
+                    <div class="md:flex md:flex-col gap-2">
+                        <label class="w-auto" for="nombre">Nombre* </label>
+                        <input type="text" name="nombre" id="nombre" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Apellido *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Teléfono *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">E-Mail *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Genero *</label>
+                        <select class="border p-2 mb-2" name="Genero" id="nivelAcademico">
+                            <option value=""></option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Femenino</option>
+                        </select>
+                    </div>
+
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Fecha de Nacimiento *</label>
+                        <input type="date" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Dirección *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Ciudad *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Departamento *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Pais *</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Estado Civil *</label>
+                        <select class="border p-2 mb-2" name="EstadoCivil" id="nivelAcademico">
+                            <option value=""></option>
+                            <option value="S">Soltero</option>
+                            <option value="C">Casado</option>
+                            <option value="D">Divorciado</option>
+                            <option value="V">Viudo</option>
+                        </select>
+                    </div>
+                </div>
+                <fieldset class="mt-14 md:grid md:grid-cols-2 gap-4 justify-center ">
+                    <legend class="border-b w-full mb-6">Datos Laborales</legend>
+
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Seleccionar Empresa *</label>
+                        <select class="border p-2 mb-2" name="Empresa" id="Empresa">
+                            <option value=""></option>
+                            <option value="1">Empresa 1</option>
+                            <option value="2">Empresa 2</option>
+                            <option value="3">Empresa 3</option>
+                            <option value="4">Empresa 4</option>
+                        </select>
+                    </div>
+
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Dependecia</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Cargo</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+                    <div class="md:flex md:flex-col gap-2">
+                        <label for="codigo">Estado</label>
+                        <input type="text" name="codigo" id="codigo" class="border p-2 mb-4">
+                    </div>
+
+                </fieldset>
+                <div class="justify-center flex mt-8">
+                    <a href="./index.html">
+
+                        <input class="cursor-pointer text-xl p-2 rounded bg-blue-600 text-white" type="button"
+                            value="Enviar">
+                    </a>
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
